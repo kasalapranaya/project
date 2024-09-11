@@ -1,0 +1,48 @@
+.how-it-works-container {
+  background-image: url('../assets/howtodo.jpeg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  padding:5px;
+  font-size: 4em;
+  text-shadow: 2px 2px 4px rgba(23, 77, 191, 0.8);
+  margin-bottom: 50px;
+}
+
+.workflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  height: 110px;
+  width: 450px;
+  text-align: center;
+  font-size: 2em;
+  border: 5px solid rgba(62, 75, 191, 0.6);
+}
+
+.arrow {
+  font-size: 2.5em;
+  font-weight:bolder;
+  color: #ffffff;
+}
+
+.step:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
